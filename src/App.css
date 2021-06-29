@@ -692,5 +692,28 @@ table a:active {
     .right-side{
         display:none;
     }
-    
+    /* error */
+    .error-container {
+        margin: 10em auto;
+        padding: 1em;
+    }
+    .error-container h1:first-child {
+        font-size: 3em;
+        margin-bottom: 0.3em;
+    }
+    .error-container .home-btn {
+        margin-top: 2em;
+        width: 15em;
+        height: 3.6em;
+        border: 2px solid #2bbbe7;
+        border-radius: 4px;
+        background: #ffffff;
+        color: #2bbbe7;
+        transition: all 0.3s ease;
+    }
+    .error-container .home-btn:hover {
+        background: #2bbbe7;
+        color: white;
+        cursor: pointer;
+    }
 }

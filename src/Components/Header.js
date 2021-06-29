@@ -49,19 +49,19 @@ const Header = () => {
                     </div>
                     <hr />
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/" onClick={closeSideBar}>Home</Link>
                     </li>
                     <li>
-                        <Link to="/live-class">Live Class</Link>
+                        <Link to="/live-class" onClick={closeSideBar}>Live Class</Link>
                     </li>
                     <li>
-                        <Link to="/books">NCERT Books</Link>
+                        <Link to="/books" onClick={closeSideBar}>NCERT Books</Link>
                     </li>
                     <li>
-                        <Link to="/solutions">Solutions</Link>
+                        <Link to="/solutions" onClick={closeSideBar}>Solutions</Link>
                     </li>
                     <li>
-                        <Link to="/videos">Videos</Link>
+                        <Link to="/videos" onClick={closeSideBar}>Videos</Link>
                     </li>
                 </ul>
             </div>
