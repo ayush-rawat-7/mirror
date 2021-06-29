@@ -6,6 +6,7 @@ import Footer from './Components/Footer';
 import Solutions from './Components/Solutions'
 import Error from './Components/Error'
 import Videos from './Components/Videos'
+import Sidebar from './Components/Sidebar'
 import VideoPlayer11 from './Components/VideoPlayer11'
 import VideoPlayer10 from './Components/VideoPlayer10'
 import Install from './Components/Install'

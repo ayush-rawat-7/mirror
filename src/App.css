@@ -1,6 +1,80 @@
 
 
 /* Header  */
+.menu-icon{
+    color:white;
+    display:none;
+}
+.menu-icon button{
+    background: none;
+    border: none;
+    float: right;
+    margin-top: 0.1em;
+}
+.menu-icon:hover{
+    cursor: pointer;
+    color: #173a46;
+}
+.sidebar{
+    position:absolute;
+    transform: translate(-100%);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    transition: all 0.3s ease;
+    top: 0;
+    height: 100%;
+    border-bottom: 2px solid #2e5461;
+    background-color: white;
+}
+.open{
+    transform: translate(0);
+}
+.logo-sidebar{
+    background-color: #2bbbe7;
+    height:10em
+}
+.logo-sidebar button{
+    background: none;
+    border: none;
+    float: right;
+    margin-top: 0.1em;
+}
+.close-icon-sidebar{
+    color: white;    
+}
+.close-icon-sidebar:hover{
+    cursor: pointer;
+}
+.sidebar hr{
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 0.25em;
+}
+.sidebar img{
+    margin: auto;
+    width: 6em;
+    box-shadow: 0 0 3px gray;
+    border:none;
+}
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.sidebar ul a {
+    text-decoration: none;
+    color: #173a46;
+    display: block;
+    margin: 0em 0;
+    padding:1.5em;
+    display: flex;
+    justify-content: center;
+}
+.sidebar ul a:hover {
+    color: #2e5461;
+    border-left: 4px solid #2e5461;
+}
 .tagline {
     text-align: center;
     margin: 1em auto;
@@ -594,4 +668,29 @@ table a:active {
         height: auto;
     }
 
+}
+
+@media (max-width: 495px){
+    /* modal */
+    .modal {
+        margin-top: 4em;
+        width: 22em;
+        height: 18em;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .modal-img {
+        width: 20em;
+        margin-top: 0.6em;
+        box-shadow: 0 0 2px black;
+    }
+    .menu-icon{
+        display: block;
+        transform: scale(1.5);
+        margin-right: 0.8em;
+    }
+    .right-side{
+        display:none;
+    }
+    
 }
